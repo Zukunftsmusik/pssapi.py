@@ -16,3 +16,4 @@ jobs:
           PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
           PYTHON_VERSION: "3.11"
           BRANCH: "main"
+          PACKAGE_DIRECTORY: "./src/pssapi"
