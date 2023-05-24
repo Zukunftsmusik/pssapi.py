@@ -14,4 +14,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_REGISTRY: "https://test.pypi.org/simple/"
           PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
-          PYTHON_VERSION: 3.11
+          PYTHON_VERSION: "3.11"
+          BRANCH: "main"
